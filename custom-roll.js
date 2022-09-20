@@ -4,7 +4,7 @@ console.log("This program creates a random dice roll.  Please input the number o
 let n = Number(prompt(">> "));
 if (n > 0) {
     let roll = Math.floor(Math.random() * n)+1;
-    console.log(roll);
+    console.log(`Your number is ${roll}`);
 } else {console.log(
-    "Your entry is invalid please try again with a whole number."
-);}
+    "Your entry is invalid please try again with a whole number.");
+}

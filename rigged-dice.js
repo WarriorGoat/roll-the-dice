@@ -9,5 +9,5 @@ if (n > 0) {
     }else {
     console.log(`Your number is ${roll}`);
 }}
-}else  {console.log("Your entry is invalid please try again with a whole number."
-)}
+}else  {console.log("Your entry is invalid please try again with a whole number.")
+}
